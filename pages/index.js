@@ -3,16 +3,16 @@ import Link from "next/link";
 
 export default function Home() {
   return (
-    <div className={styles.container}>
-      <h1>Homepage</h1>
-      <p>
+    <div >
+      <h1 className={styles.title}>Homepage</h1>
+      <p  className={styles.text}>
         Pellentesque habitant morbi tristique senectus et netus et malesuada
         fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae,
         ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam
         egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend
         leo. Quisque sit amet est et sapien ullamcorper{" "}
       </p>
-      <p>
+      <p  className={styles.text}>
         Pellentesque habitant morbi tristique senectus et netus et malesuada
         fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae,
         ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam
@@ -20,8 +20,8 @@ export default function Home() {
         leo. Quisque sit amet est et sapien ullamcorper{" "}
       </p>
       <Link href="/ninjas">
-        <a>
-          <h2>See Ninja Listing</h2>
+        <a className={styles.btn}>
+          See Ninja Listing
         </a>
       </Link>
     </div>

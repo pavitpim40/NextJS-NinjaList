@@ -1,7 +1,7 @@
 const Footer = () => {
-    return ( <div>
+    return ( <footer>
         Copyrigtht 2021 Ninja List
-    </div> );
+    </footer> );
 }
  
 export default Footer;
